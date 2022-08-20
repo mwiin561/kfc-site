@@ -3,7 +3,7 @@ import Chicken from '../assets/ChickenCart.png'
 const BannerContent = () => {
   return (
     <>
-   <div className='w-full -mt-[90%] md:-mt-[35%]  flex flex-col justify-between'>
+   <div className='w-full -mt-[130%] md:-mt-[35%]  flex flex-col justify-between'>
     <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
       {/* Content */}
     <div className='flex flex-col justify-center md:items-start w-full px-2 ' >
