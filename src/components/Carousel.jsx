@@ -73,7 +73,7 @@ function Carousel() {
       <button className="bg-[#FFC71F] w-[10%] py-3 text-white rounded-[20px] ml-[45%]">
         MENU
       </button>
-      <div className="sm:mt-[2%] max-w-[80%] mx-[5%] ">
+      <div className="sm:mt-[2%] max-w-[80%] mx-[20%] ">
         <Slider {...settings}>
           <div>
             <img src={Menu1} alt="menu1" />
