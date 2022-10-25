@@ -1,7 +1,8 @@
 import Banner from "./components/Banner";
 import BannerContent from "./components/BannerContent";
+import Carousel from "./components/Carousel";
 import Navbar from "./components/Navbar";
-
+import Packages from "./components/Packages";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Navbar />
       <Banner />
       <BannerContent />
+      <Carousel />
+      <Packages />
     </div>
   );
 }

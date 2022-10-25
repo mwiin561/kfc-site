@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 // import Logo from "../assets/logo (2).png";
- const Navbar = () => {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -11,7 +11,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
     <>
       <div className="flex mt-[0px] w-full md:mt-[1px] bg-[#F73D27] justify-between items-center px-4 h-24 max-w-[1240px] mx-auto text-white">
         {/* <img className="lg:w-[3%] w-[10%] " src={Logo} alt="logo" />{" "} */}
-        <h1 className="w-full px-3 font-bold text-3xl text-[#ffffff]">
+        <h1 className="w-full md:translate-x-[10%] px-3 font-bold text-3xl text-[#ffffff]">
           KFC
         </h1>{" "}
         <ul className="hidden w-full md:flex ">
@@ -32,9 +32,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
               : "fixed left-[-100%]"
           }
         >
-          <h1 className="w-full font-bold text-3xl m-4 text-white">
-            KFC
-          </h1>
+          <h1 className="w-full font-bold text-3xl m-4 text-white">KFC</h1>
 
           <ul className=" md:hidden p-4 uppercase">
             <li className="p-6 border-b border-gray-600 ">ABOUT US</li>
@@ -50,6 +48,5 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
     </>
   );
 };
-
 
 export default Navbar;
