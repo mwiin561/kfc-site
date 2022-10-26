@@ -11,7 +11,7 @@ function App() {
       <Banner />
       <BannerContent />
       <Carousel />
-          {/* <Packages /> */}
+          <Packages /> 
     </div>
   );
 }
