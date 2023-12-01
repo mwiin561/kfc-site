@@ -6,12 +6,14 @@ import Packages from "./components/Packages";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <Navbar />
-      <Banner />
-      <BannerContent />
       <Carousel />
-          <Packages /> 
+          <Packages />
+          <div id="about">
+            <BannerContent />
+          </div>
+         
     </div>
   );
 }
